@@ -1,0 +1,5 @@
+Host: http://moscow-drive.com
+
+User-agent: *
+Allow: /
+Sitemap: http://moscow-drive.com/sitemap.xml

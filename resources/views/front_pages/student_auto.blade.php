@@ -1,0 +1,63 @@
+@extends('layouts.master')
+
+@section('title', 'Занятия на собственном автомобиле в автошколе MoscowDrive в Москве в 2019 году')
+@section('description', 'Автошкола MoscowDrive предлагает своим ученикам пройти курс вождения на собственном автомобиле после прохождения основного курса обучения.')
+
+@section('content')
+    <div class="container mt-6 mb-6">
+        <h1 class="right-line">Занятия на автомобиле ученика</h1>
+        <p>После прохождения курса обучения и получения прав автошкола оказывает поддержку и своим ученикам и предлагает помощь в адаптации к своему новому автомобилю, который может отличаться от учебного и из-за чего начинающий водитель может испытывать трудности при вождении.</p>
+        <p>Автошкола оказывает услуги по:</p>
+        <ul>
+            <li>адаптации к особенностям нового автомобиля</li>
+            <li>вождению и парковке на любой коробке передач - МКПП, АКПП, робот, вариатор</li>
+            <li>вождению и парковке на автомобиле с любым типом привода</li>
+            <li>вождению и парковке на автомобиле с любыми габаритами</li>
+        </ul>
+        <p><strong>Результатом прохождения данного курса занятий будет Ваша полная уверенность и безопасность на дорогах!</strong></p>
+        <p>Порядок проведения занятий на автомобиле ученика, так же как и цены, обсуждается и разрабатывается индивидуально. Вы можете позвонить по номеру <a href="tel:84993914315"><strong>8 (499) 391 43 15</strong></a> или задать все интересующие вопросы через <a href="#" data-toggle="modal" data-target="#myModal">форму обратной связи и заказать обратный звонок</a>.</p>
+
+        <!-- Modal -->
+        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog animated zoomIn animated-3x" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title color-primary" id="myModalLabel">Форма обратной связи</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="zmdi zmdi-close"></i></span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="short_form">
+                            <input type="hidden" name="url" id="url" value="{{ Request::route()->uri }}">
+                            <div class="form-group label-floating mt-2 mb-1">
+                                <div class="input-group center-block">
+                                    <label class="control-label" for="name">
+                                        <i class="zmdi zmdi-account"></i> Имя</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group label-floating mt-2 mb-1">
+                                <div class="input-group center-block">
+                                    <label class="control-label" for="phone">
+                                        <i class="zmdi zmdi-phone"></i> Телефон</label>
+                                    <input type="tel" id="phone" name="phone" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group label-floating mt-2 mb-1">
+                                <div class="input-group center-block">
+                                    <label class="control-label" for="message">
+                                        <i class="zmdi zmdi-email"></i> Сообщение</label>
+                                    <textarea class="form-control" rows="3" id="message" name="message"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-raised btn-primary btn-block withoutripple" type="submit">
+                                Отправить
+                            </button>
+                        </form>
+                        <p id="success_msg" class="mt-3 d-none"><strong>Ваша форма успешно отправлена!</strong></p>
+                        <p id="error_msg" class="mt-3 d-none"><strong>При отправке формы произошла ошибка, позвоните пожалуйста по телефону <a href="tel:84993914315">8 (499) 391 43 15</a>.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection

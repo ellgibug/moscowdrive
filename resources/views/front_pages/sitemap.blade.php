@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://moscow-drive.com/</loc>
+	<lastmod>2018-09-11T17:29:58+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/admission</loc>
+	<lastmod>2018-09-11T17:29:58+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/learning</loc>
+	<lastmod>2018-09-11T17:29:58+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/schedule</loc>
+	<lastmod>2018-09-11T17:29:59+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/gallery</loc>
+	<lastmod>2018-09-11T17:29:59+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/comments</loc>
+	<lastmod>2018-09-11T17:30:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/driving</loc>
+	<lastmod>2018-09-11T17:30:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/exams</loc>
+	<lastmod>2018-09-11T17:30:00+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/parking</loc>
+	<lastmod>2018-09-11T17:30:01+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/student_auto</loc>
+	<lastmod>2018-09-11T17:30:02+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/new_auto</loc>
+	<lastmod>2018-09-11T17:30:03+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/pdd</loc>
+	<lastmod>2018-09-11T17:30:04+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/theory</loc>
+	<lastmod>2018-09-11T17:30:05+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/autodrom</loc>
+	<lastmod>2018-09-11T17:30:05+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/city</loc>
+	<lastmod>2018-09-11T17:30:06+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/prices</loc>
+	<lastmod>2018-09-11T17:30:07+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/addresses</loc>
+	<lastmod>2018-09-11T17:30:07+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>http://moscow-drive.com/contacts</loc>
+	<lastmod>2018-09-11T17:30:08+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
